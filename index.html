@@ -1,0 +1,189 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gilbert Subay's Resume</title>
+    <script src="https://kit.fontawesome.com/10bd8af26a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- Form  -->
+    <form action="">
+        <input type="checkbox" id="hobbySatu" name="hobby" value="memasak"> Memasak
+        <input type="checkbox" id="hobbyDua" name="hobby" value="memasak2"> Memasak 2
+        <input type="checkbox" id="hobbyTiga" name="hobby" value="memasak3"> Memasak 3
+        <br>
+        <label for="">Phone Number</label>
+        <input type="text" id="name">
+        <br>
+        <label for="">Umur</label>
+        <input type="text" id="age">
+        <br>
+        <input type="button" onclick='saveData(1, "asdf")' value="Simpan data">
+
+</form>
+
+
+    <!--   Form end-->
+    <div class="row justify-content-md-center resume">
+        <div class="col-6col-lg-6 col-md-6 col-sm-12 col-xs-12 resume-left">
+            <div class="resume-profile">
+                <img src="/0.jpeg" alt="profile_picture">
+            </div>
+            <div class="resume-content">
+                <div class="profile-contact-sosialmedia">
+                    <div class="title-profile">
+                        <h1>PROFILE</h1>
+                    </div>
+                    <div class="profile-intro">
+                        <h3>Hello my name is Gilbert Subay, usually i was called Gilbert or Subay. For now i live in Jakarta. I am someone who passioned about technology.</h3>
+                    </div>
+
+                    <div class="title-profile">
+                        <h1>CONTACT</h1>
+                    </div>
+                    <div class="profile-intro">
+                        <div class="profile-intro-item phone">
+                            <p class="contact-kecil"><i class="fas fa-phone"></i> &nbsp; PHONE</p>
+                            <p class="sub-paragraph" > 
+                            <span id="phoneNumberSaya">+0857 70442298</span></p>
+                        </div>
+                        <div class="profile-intro-item mail">
+                            <p class="contact-kecil"><i class="fas fa-envelope-square"></i> &nbsp;MAIL</p>
+                            <p class="sub-paragraph">gilbertttsubay@gmail.com</p>
+                        </div>
+                        <div class="profile-intro-item mail">
+                            <p class="contact-kecil"><i class="fas fa-home"></i> &nbsp;ADDRESS</p>
+                            <p class="sub-paragraph" >
+                            <span id="alamatSaya">Jalan tipar selatan no.19A RT 015 RW 005</span></p>
+                        </div>
+                    </div>
+
+                    <div class="title-profile">
+                        <h1>SOCIAL MEDIA</h1>
+                    </div>
+                    <div class="profile-intro">
+                        <div class="profile-intro-item linkedin">
+                            <p><i class="fab fa-linkedin-in"></i> &nbsp;LINKEDIN</p>
+                            <p class="linkedin-paragraph">https://www.linkedin.com/in/gilbert-subay-0a8913110/</p>
+                        </div>
+                    </div>
+                    <div class="title-profile">
+                        <h1>My Age </h1>
+                    </div>
+                    <div class="profile-intro">
+                        <div class="profile-intro-item">
+                            <p>My Age is</p>
+                            <p id="umurGua"> </p>
+                            <p>My Year of Birth is</p>
+                            <p id="yob-Gua"></p>
+                        </div>
+                    </div>
+                    <div class="profile-intro">
+                        <div class="profile-intro-item">
+                            <p>My Hobbies are</p>
+                            <p id="order"></p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-6.col-lg-6 col-md-6 col-sm-12 col-xs-12 resume-right">
+            <div class="resume-content">
+
+                <h1>Gilbert Subay</h1>
+                <h2>Always Focus on My Goal</h2>
+
+                <div class="resume-item resume-education">
+                    <h3>EDUCATION</h3>
+                    <div class="row left">
+                        <div class="col-lg-6 resume-item-left">
+                            <p>2003-2009</p>
+                        </div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p class="sekolah">Elementary School SDN 011 Jakarta Utara</p>
+                        </div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p>2009-2012</p>
+                        </div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p class="sekolah">Junior High School 231 Jakarta Utara</p>
+                        </div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p>2012-2015</p>
+                        </div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p class="sekolah">Senior High School SMAN 75 Jakarta Utara</p>
+                        </div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p>2015-2019</p>
+                        </div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p class="sekolah">Bachelor Degree at Kwik Kian Gie School of Business</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-item resume-organization">
+                    <h3>ORGANIZATION</h3>
+                    <div class=" row left">
+                        <div class="col-lg-6 resume-item-left">
+                            <p>2017-2018</p>
+                        </div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p class="sekolah">IBII Marketing Society</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-item resume-skills">
+                    <h3>SKILLS </h3>
+                    <div class="row left">
+                        <div class="col-lg-6 resume-item-left">
+                            <p>Microsoft Excel</p>
+                        </div>
+                        <div class="col-lg-6 blok excel"></div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p>Microsoft Word</p>
+                        </div>
+                        <div class="col-lg-6 blok word"></div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p>Microsoft Power Point</p>
+                        </div>
+                        <div class="col-lg-6 blok point"></div>
+
+
+                        <div class="col-lg-6 resume-item-left">
+                            <p>Team Work</p>
+                        </div>
+                        <div class="col-lg-6 blok work"></div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p>On Time</p>
+                        </div>
+                        <div class="col-lg-6 blok time"></div>
+                        <div class="col-lg-6 resume-item-left">
+                            <p>Responsible</p>
+                        </div>
+                        <div class="col-lg-6 blok responsible"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js">
+
+    </script>
+</body>
+
+</html>

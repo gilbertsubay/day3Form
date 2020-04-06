@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'Comic Neue', cursive;
+    font-weight: 700;
+}
+p{
+    font-size:1.2rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #feca57;
+}
+/*resume kiri*/
+.resume-left{
+    background-color:#54a0ff;
+    text-align: center;
+    padding: 0 80px;
+    max-width: 560px;
+    border-radius: 15%;
+    color: #ffff;
+
+    
+}
+.resume-profile img{
+    border-radius: 50%;
+}
+.resume-profile{
+    text-align: center;
+    padding-top: 20px;
+}
+.resume-profile .profile-intro h3{
+     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.profile-intro{
+    margin-bottom: 20px;
+}
+
+.profile-intro .profile-intro-item .linkedin-paragraph{
+    
+text-align: left;
+    padding-right: 10px;
+}
+/*resume kiri end*/
+
+/*resume kanan*/
+.resume-right{
+    text-align: center;
+    padding: 40px;
+    background-color: #ff6b6b;
+    border-radius:0 12%;
+    margin-top: 30px;
+    color: #fff
+    
+}
+.resume-content h2{
+    margin-bottom: 50px;
+}
+.resume-item h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.3rem;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.resume-item-left p{
+   font-family: 'Comic Neue', cursive;
+    font-weight: 400;
+    margin-bottom: 5px;;
+}
+.resume-item .sekolah{
+    border-bottom: 1px solid #fff;
+}
+.resume-item-left .sekolah{
+    border-bottom: 1px solid #fff;
+}
+.left .blok{
+    width: 400px;
+    height: 20px;
+    background-color: #fff;
+}
+
+.excel{
+    border-right: 60px solid #ff6b6b;
+}
+.word{
+    border-right: 40px solid #ff6b6b;
+}
+.point{
+    border-right: 20px solid #ff6b6b;
+}
+.work{
+    border-right: 40px solid #ff6b6b;
+}
+.time{
+    border-right: 70px solid #ff6b6b;
+}
+.responsible{
+    border-right: 60px solid #ff6b6b;
+}
+/*resume kanan end*/
+
+@media screen and (min-width: 1000px) {
+    .resume-left{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+    .profile-intro .profile-intro-item p{
+        text-align: left;
+    }
+    .profile-intro .profile-intro-item .contact-kecil{
+        font-size: 1.3rem;
+    }
+    
+    
+    
+    .resume-content h1, .resume-content h2{
+text-align: center
+    }
+    .resume-right{
+    text-align: left;
+    padding: 40px;
+    background-color: #ff6b6b;
+    margin-left: 40px;
+        padding-right: 70px;
+        color: #fff;
+        margin-bottom: 30px;
+        border-radius: 0 12%;
+    }
+    .resume-item h3{
+        text-align: center;
+    }
+    .resume-item-left .sekolah{
+    border-bottom: none;
+}
+}
